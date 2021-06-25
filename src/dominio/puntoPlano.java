@@ -12,20 +12,20 @@ private int x;
     this.y=y;
     }
     
-    public void moverArriba(int incremento){
-        y=y+incremento;
+    public void moverArriba(int aumento){
+        y=y+aumento;
     }
     
-    public void moverAbajo(int incremento){
-        y=y-incremento;
+    public void moverAbajo(int aumento){
+        y=y-aumento;
     }
     
-    public void moverDerecha(int incremento){
-    x+=incremento;
+    public void moverDerecha(int aumento){
+    x+=aumento;
     }
     
-    public void moverIzquierda(int incremento){
-    x-=incremento;
+    public void moverIzquierda(int aumento){
+    x-=aumento;
     }
     
     public int getX(){
@@ -36,11 +36,11 @@ private int x;
         return y;
     }
     
-    public double calculoDistancia(Punto T1, Punto T2){
-        int x1=T2.getX();
-        int y1=T2.getY();
-        int x2=T1.getX();
-        int y2=T1.getY();
+    public double calculoDistancia(Punto P1, Punto P2){
+        int x1=P2.getX();
+        int y1=P2.getY();
+        int x2=P1.getX();
+        int y2=P1.getY();
         int r1,r2;
         r1=x2-x1;
         r2=y2-y1;
