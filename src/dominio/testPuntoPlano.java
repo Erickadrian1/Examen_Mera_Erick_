@@ -38,8 +38,8 @@ public class testPuntoPlano {
                     default: System.out.println("Error"); break;
                 }
 
-                System.out.println("\n Posicion (X;Y): ("+P1.getX()+", "+P1.getY()+")");
-                contadorM++;
+                System.out.println("\n Posicion (X;Y): ("+P1.getX()+", "+P1.getY()+")"); //Posicion despues de realizar los movimientos
+                contadorM++; 
                     } while (contadorM<cantidadM); 
     }
     
