@@ -36,7 +36,7 @@ private int x;
         return y;
     }
     
-    public double calculoDistancia(Punto P1, Punto P2){
+    public double calculoDistancia( puntoPlano P1, puntoPlano P2){
         int x1=P2.getX();
         int y1=P2.getY();
         int x2=P1.getX();

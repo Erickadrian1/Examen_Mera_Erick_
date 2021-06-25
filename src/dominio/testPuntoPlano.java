@@ -7,16 +7,16 @@ public class testPuntoPlano {
 
     
     public static void main(String[] args) {
-        Punto P1;
-        Punto P2;
+        puntoPlano P1;
+        puntoPlano P2;
         Scanner entrada=new Scanner(System.in);
         int x=0;
         int y=0;
         int opcion=0;
         int aumento=0;
         int cantidadM=0,contadorM=0;
-        P1=new Punto(x,y);
-        P2=new Punto(x,y);
+        P1=new puntoPlano(x,y);
+        P2=new puntoPlano(x,y);
         System.out.println("\n La Posicion Actual (X;Y) es : ("+P1.getX()+", "+P1.getY()+")");//Posicion inicial (0,0)
         
         System.out.println("\n\t. Menú.\n");
@@ -44,4 +44,3 @@ public class testPuntoPlano {
     }
     
 }
-
